@@ -1,0 +1,40 @@
+@charset 'utf-8';
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+$navbar-breakpoint: $tablet; // default: $desktop
+
+// sticky footer
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  box-shadow: 0 -2px 0 0 $white-ter;
+}
+
+// navbar-burger uses button tag instead of a tag
+.navbar-burger {
+  background-color: transparent;
+  border: 0;
+  touch-action: manipulation;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// TODO: navbar-menu doesn't move content down
+// TODO: navbar-menu close on outside click
+// TODO: navbar dropdown animation
+
+@import '~bulma/bulma.sass';
