@@ -26,8 +26,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "bulma": "^0.8.0",
-    "gatsby": "^2.19.21",
-    "gatsby-image": "^2.2.41",
+    "gatsby": "^2.19.27",
+    "gatsby-image": "^2.2.42",
     "gatsby-plugin-canonical-urls": "^2.1.20",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-manifest": "^2.2.42",
@@ -38,11 +38,11 @@
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-sharp": "^2.3.14",
+    "gatsby-transformer-sharp": "^2.3.16",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.4.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "gatsby-plugin-eslint": "^2.0.8"
   }
 }
