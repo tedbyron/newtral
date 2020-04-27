@@ -1,0 +1,412 @@
+[
+  {
+    "source": "ABC News",
+    "bias": -2,
+    "reliability": 50
+  },
+  {
+    "source": "Alternet",
+    "bias": -20,
+    "reliability": 22
+  },
+  {
+    "source": "The American Conservative",
+    "bias": 10,
+    "reliability": 30
+  },
+  {
+    "source": "The American Spectator",
+    "bias": 24,
+    "reliability": 22
+  },
+  {
+    "source": "Associated Press",
+    "bias": -1,
+    "reliability": 52
+  },
+  {
+    "source": "The Atlantic",
+    "bias": -6,
+    "reliability": 40
+  },
+  {
+    "source": "Axios",
+    "bias": -6,
+    "reliability": 47
+  },
+  {
+    "source": "BBC",
+    "bias": -3,
+    "reliability": 47
+  },
+  {
+    "source": "Bipartisan Report",
+    "bias": -23,
+    "reliability": 19
+  },
+  {
+    "source": "The Blaze",
+    "bias": 16,
+    "reliability": 27
+  },
+  {
+    "source": "Breitbart",
+    "bias": 19,
+    "reliability": 25
+  },
+  {
+    "source": "Business Insider",
+    "bias": 0,
+    "reliability": 43
+  },
+  {
+    "source": "Buzzfeed News",
+    "bias": -7,
+    "reliability": 43
+  },
+  {
+    "source": "CBS News",
+    "bias": -2,
+    "reliability": 47
+  },
+  {
+    "source": "CNN",
+    "bias": -6,
+    "reliability": 42
+  },
+  {
+    "source": "CNS News",
+    "bias": 26,
+    "reliability": 26
+  },
+  {
+    "source": "Conservative Tribune",
+    "bias": 18,
+    "reliability": 30
+  },
+  {
+    "source": "CounterPunch",
+    "bias": -19,
+    "reliability": 25
+  },
+  {
+    "source": "The Daily Beast",
+    "bias": -16,
+    "reliability": 35
+  },
+  {
+    "source": "The Daily Caller",
+    "bias": 20,
+    "reliability": 24
+  },
+  {
+    "source": "The Daily Kos",
+    "bias": -22,
+    "reliability": 23
+  },
+  {
+    "source": "The Daily Mail",
+    "bias": 4,
+    "reliability": 30
+  },
+  {
+    "source": "The Daily Signal",
+    "bias": 24,
+    "reliability": 24
+  },
+  {
+    "source": "The Daily Wire",
+    "bias": 16,
+    "reliability": 24
+  },
+  {
+    "source": "The Economist",
+    "bias": -2,
+    "reliability": 43
+  },
+  {
+    "source": "The Federalist",
+    "bias": 24,
+    "reliability": 22
+  },
+  {
+    "source": "Financial Times",
+    "bias": 1,
+    "reliability": 27
+  },
+  {
+    "source": "Forbes",
+    "bias": 0,
+    "reliability": 40
+  },
+  {
+    "source": "Foreign Policy",
+    "bias": -2,
+    "reliability": 42
+  },
+  {
+    "source": "Fortune",
+    "bias": 1,
+    "reliability": 45
+  },
+  {
+    "source": "Fox News",
+    "bias": 0,
+    "reliability": 43
+  },
+  {
+    "source": "The Gateway Pundit",
+    "bias": 29,
+    "reliability": 11
+  },
+  {
+    "source": "Guacamoley!",
+    "bias": -10,
+    "reliability": 19
+  },
+  {
+    "source": "The Hill",
+    "bias": 0,
+    "reliability": 46
+  },
+  {
+    "source": "HuffPost",
+    "bias": -12,
+    "reliability": 40
+  },
+  {
+    "source": "Independent Journal Review",
+    "bias": 7,
+    "reliability": 44
+  },
+  {
+    "source": "Infowars",
+    "bias": 32,
+    "reliability": 12
+  },
+  {
+    "source": "The Intercept",
+    "bias": -16,
+    "reliability": 38
+  },
+  {
+    "source": "Market Watch",
+    "bias": -13,
+    "reliability": 38
+  },
+  {
+    "source": "Mother Jones",
+    "bias": -22,
+    "reliability": 33
+  },
+  {
+    "source": "MSNBC",
+    "bias": -17,
+    "reliability": 33
+  },
+  {
+    "source": "The Nation",
+    "bias": -2,
+    "reliability": 50
+  },
+  {
+    "source": "NPR",
+    "bias": 16,
+    "reliability": 27
+  },
+  {
+    "source": "National Review",
+    "bias": -13,
+    "reliability": 36
+  },
+  {
+    "source": "The New Republic",
+    "bias": 5,
+    "reliability": 39
+  },
+  {
+    "source": "New York Post",
+    "bias": -5,
+    "reliability": 47
+  },
+  {
+    "source": "The New York Times",
+    "bias": -7,
+    "reliability": 41
+  },
+  {
+    "source": "The New Yorker",
+    "bias": -9,
+    "reliability": 35
+  },
+  {
+    "source": "N&G",
+    "bias": 13,
+    "reliability": 33
+  },
+  {
+    "source": "News Max",
+    "bias": 29,
+    "reliability": 15
+  },
+  {
+    "source": "News Punch",
+    "bias": -9,
+    "reliability": 49
+  },
+  {
+    "source": "Newsy",
+    "bias": -27,
+    "reliability": 20
+  },
+  {
+    "source": "Occupy Democrats",
+    "bias": 16,
+    "reliability": 31
+  },
+  {
+    "source": "OAN",
+    "bias": -29,
+    "reliability": 18
+  },
+  {
+    "source": "The Palmer Report",
+    "bias": 20,
+    "reliability": 18
+  },
+  {
+    "source": "RJ Media",
+    "bias": -5,
+    "reliability": 46
+  },
+  {
+    "source": "Politico",
+    "bias": -17,
+    "reliability": 37
+  },
+  {
+    "source": "The Progressive",
+    "bias": -4,
+    "reliability": 41
+  },
+  {
+    "source": "Quartz",
+    "bias": 4,
+    "reliability": 39
+  },
+  {
+    "source": "Reason",
+    "bias": 27,
+    "reliability": 20
+  },
+  {
+    "source": "Redstate",
+    "bias": -1,
+    "reliability": 41
+  },
+  {
+    "source": "Reuters",
+    "bias": -23,
+    "reliability": 23
+  },
+  {
+    "source": "Shareblue",
+    "bias": -4,
+    "reliability": 41
+  },
+  {
+    "source": "The Skimm",
+    "bias": -19,
+    "reliability": 31
+  },
+  {
+    "source": "Slate",
+    "bias": -6,
+    "reliability": 42
+  },
+  {
+    "source": "TPM",
+    "bias": -20,
+    "reliability": 36
+  },
+  {
+    "source": "Think Progress",
+    "bias": -24,
+    "reliability": 25
+  },
+  {
+    "source": "Truthout",
+    "bias": 21,
+    "reliability": 17
+  },
+  {
+    "source": "Twitchy",
+    "bias": -2,
+    "reliability": 23
+  },
+  {
+    "source": "News 24",
+    "bias": -18,
+    "reliability": 34
+  },
+  {
+    "source": "Vanity Fair",
+    "bias": -9,
+    "reliability": 36
+  },
+  {
+    "source": "Vice News",
+    "bias": -8,
+    "reliability": 41
+  },
+  {
+    "source": "Vox",
+    "bias": 1,
+    "reliability": 48
+  },
+  {
+    "source": "Wall Street Journal",
+    "bias": 12,
+    "reliability": 27
+  },
+  {
+    "source": "Washington Examiner",
+    "bias": 18,
+    "reliability": 33
+  },
+  {
+    "source": "Washington Free Beacon",
+    "bias": -15,
+    "reliability": 26
+  },
+  {
+    "source": "Washington Monthly",
+    "bias": -5,
+    "reliability": 42
+  },
+  {
+    "source": "Washington Post",
+    "bias": 13,
+    "reliability": 31
+  },
+  {
+    "source": "The Washington Times",
+    "bias": -8,
+    "reliability": 31
+  },
+  {
+    "source": "The Week",
+    "bias": -32,
+    "reliability": 15
+  },
+  {
+    "source": "Wonkette",
+    "bias": 24,
+    "reliability": 18
+  },
+  {
+    "source": "WND",
+    "bias": 8,
+    "reliability": 7
+  }
+]

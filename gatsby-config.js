@@ -5,7 +5,7 @@ module.exports = {
     defaultTitle: 'Newtral',
     defaultAuthor: 'Teddy Byron',
     defaultDescription: 'A news aggregator that tries to be neutral.',
-    siteUrl: 'https://newtral.netlify.com',
+    siteUrl: 'https://newtral.netlify.app',
     referrer: 'no-referrer-when-downgrade',
     colorScheme: 'only light',
   },
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://newtral.netlify.com',
+        siteUrl: 'https://newtral.netlify.app',
         stripQueryString: true,
       },
     },
@@ -62,22 +62,22 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'uploads',
-        path: path.join(__dirname, 'static', 'assets'),
+        name: 'json',
+        path: path.resolve(__dirname, 'static', 'json'),
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: path.join(__dirname, 'src', 'pages'),
+        path: path.resolve(__dirname, 'src', 'pages'),
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: path.join(__dirname, 'src', 'images'),
+        path: path.resolve(__dirname, 'src', 'images'),
       },
     },
     'gatsby-transformer-sharp',

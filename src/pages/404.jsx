@@ -10,7 +10,7 @@ const NotFoundPage = () => (
     <section className="section">
       <div className="container has-text-centered">
         <h1 className="title is-1">404</h1>
-        <h2 className="subtitle">That route doesn&apos;t exist...</h2>
+        <h2 className="subtitle">That route doesn&apos;t exist…</h2>
       </div>
     </section>
   </Layout>

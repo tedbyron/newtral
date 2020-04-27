@@ -1,0 +1,389 @@
+[
+  {
+    "topic": "COVID-19",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2020/04/17/santa-clara-covid-19-antibody-study-suggests-broad-asymptomatic-spread.html",
+    "headline": "Antibody study suggests Covid-19 could be far more prevalent in the Bay Area than official numbers suggest",
+    "author": "Christina Farr",
+    "date": "2020-04-17",
+    "thumbnail": "https://image.cnbcfm.com/api/v1/image/106482410-1586449588289gettyimages-1209527129.jpeg?v=1586449708&w=678&h=381"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "The New York Times",
+    "link": "https://www.nytimes.com/2020/04/17/us/coronavirus-cases-news-update.html",
+    "headline": "Coronavirus Live Updates: Trump Foments Anti-Restriction Protests, Alarming Governors",
+    "author": "NYT",
+    "date": "Live Update",
+    "thumbnail": "https://static01.nyt.com/images/2020/04/16/us/17virus-us-brieifng-protest/merlin_171561840_ec69eb11-e1e3-4854-85c7-d8e6a14e61da-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "CNN",
+    "link": "https://www.cnn.com/2020/04/17/opinions/covid-19-national-security-threat-vinograd/index.html",
+    "headline": "The danger of ignoring this threat during Covid-19",
+    "author": "Samantha Vinograd",
+    "date": "2020-04-17",
+    "thumbnail": ""
+  },
+  {
+    "topic": "COVID-19",
+    "source": "CBS News",
+    "link": "https://www.cbsnews.com/live-updates/coronavirus-pandemic-covid-19-latest-news-2020-04-17/",
+    "headline": "Coronavirus updates: U.S. death toll nears 35,000",
+    "author": "Tucker Reals",
+    "date": "2020-04-17",
+    "thumbnail": ""
+  },
+  {
+    "topic": "COVID-19",
+    "source": "NPR",
+    "link": "https://www.npr.org/sections/coronavirus-live-updates/2020/04/17/836783432/indonesia-now-has-the-most-confirmed-covid-19-cases-in-southeast-asia",
+    "headline": "Indonesia Now Has The Most Confirmed COVID-19 Cases In Southeast Asia",
+    "author": "Ashley Westerman",
+    "date": "2020-04-17",
+    "thumbnail": ""
+  },
+  {
+    "topic": "COVID-19",
+    "source": "The Blaze",
+    "link": "https://www.theblaze.com/news/democratic-governor-admits-to-not-considering-the-bill-of-rights-before-banning-religious-gatherings",
+    "headline": "Democratic governor admits to not considering the Bill of Rights before banning religious gatherings",
+    "author": "Aaron Colen",
+    "date": "2020-04-16",
+    "thumbnail": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMzAyMzkzNC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTU5MzY3OTY2Mn0.Fi41P_Gz3gOmroElJj0kxE4-9yDBalvPBWzD6J4JZTw/img.jpg?width=1245&coordinates=0%2C84%2C0%2C84&height=700"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "Forbes",
+    "link": "https://www.forbes.com/sites/rainerzitelmann/2020/04/15/rankings-capitalist-countries-have-the-highest-levels-of-covid-19-safety/#5322efec60fb",
+    "headline": "Rankings: Capitalist Countries Have The Highest Levels Of COVID-19 Safety",
+    "author": "Rainer Zitelmann",
+    "date": "2020-04-15",
+    "thumbnail": "https://specials-images.forbesimg.com/imageserve/5e9736d97be2870006cdfe04/960x0.jpg?fit=scale"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "Vox",
+    "link": "https://www.vox.com/covid-19-coronavirus-treatment-prevention-cure-vaccines/2020/4/1/21203242/coronavirus-flu-covid-19",
+    "headline": "Coronavirus is not the flu. It’s worse.",
+    "author": "Madeline Marshall",
+    "date": "2020-04-01",
+    "thumbnail": ""
+  },
+  {
+    "topic": "COVID-19",
+    "source": "Washington Post",
+    "link": "https://www.washingtonpost.com/world/2020/04/16/coronavirus-latest-news/",
+    "headline": "White House guidelines on reopening U.S. after coronavirus shutdowns are less detailed than CDC and FEMA guidance",
+    "author": "Teo Armus",
+    "date": "2020-04-17",
+    "thumbnail": ""
+  },
+  {
+    "topic": "COVID-19",
+    "source": "The Washington Times",
+    "link": "https://www.washingtontimes.com/news/2020/apr/14/coronavirus-case-and-death-counts-in-us-ridiculous/",
+    "headline": "Coronavirus case and death counts in U.S. ridiculously low",
+    "author": "Cheryl K. Chumley",
+    "date": "2020-04-14",
+    "thumbnail": "https://twt-thumbs.washtimes.com/media/image/2020/04/12/virus_outbreak_stalled_roadwork_38421_c0-180-4311-2693_s885x516.jpg?34d9b29322b9f116e0ef8864d8ed40efd98509d3"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "Politico",
+    "link": "https://www.politico.com/news/2020/04/17/republican-lawmakers-coronavirus-lockdown-protest-192742",
+    "headline": "GOP lawmakers eye return to Capitol in protest of pandemic shutdown",
+    "author": "Melanie Zanona",
+    "date": "2020-04-17",
+    "thumbnail": "https://static.politico.com/dims4/default/f04dc66/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F0b%2F96%2F204f41f44c5aa834ba39dfa2cd36%2F200416-kevin-mccarthy-gty-773.jpg"
+  },
+  {
+    "topic": "COVID-19",
+    "source": "OAN",
+    "link": "https://www.oann.com/sen-graham-more-covid-19-testing-needed-before-economy-reopens/",
+    "headline": "Sen. Graham: More COVID-19 Testing Needed Before Economy Reopens",
+    "author": "OAN",
+    "date": "2020-04-17",
+    "thumbnail": "https://d2pggiv3o55wnc.cloudfront.net/oann/wp-content/uploads/2020/04/GRAHAM.jpeg"
+  },
+  {
+    "topic": "Politics",
+    "source": "Associated Press",
+    "link": "https://apnews.com/59c6d83d3ecde86375c2c97683887fde",
+    "headline": "Ex-Trump lawyer Cohen to serve out prison sentence at home",
+    "author": "Michael Balsamo",
+    "date": "2020-04-18",
+    "thumbnail": "https://storage.googleapis.com/afs-prod/media/4bc8190cc57c4a27ad8202f107b89b94/800.jpeg"
+  },
+  {
+    "topic": "Politics",
+    "source": "Fox News",
+    "link": "https://www.foxnews.com/politics/schumer-defends-adding-demands-to-increased-small-business-relief",
+    "headline": "Schumer defends adding demands to small business relief because they 'are now going into the bill'",
+    "author": "Ronn Blitzer",
+    "date": "2020-04-19",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Politics",
+    "source": "The Atlantic",
+    "link": "https://www.theatlantic.com/notes/2020/04/the-meaning-of-todays-political-street-theater/610258/",
+    "headline": "The Meaning of Today’s Political ‘Street Theater’",
+    "author": "James Fallows",
+    "date": "2020-04-19",
+    "thumbnail": "https://cdn.theatlantic.com/thumbor/eL03EZu_hzDvng41J1nSsLVudTo=/0x9:6720x3789/615x365/media/img/notes/2020/04/GettyImages_1210050159/original.jpg"
+  },
+  {
+    "topic": "Politics",
+    "source": "The Washington Post",
+    "link": "https://www.washingtonpost.com/us-policy/2020/04/19/trump-coronavirus-democrats-small-business/",
+    "headline": "Trump administration, congressional leaders near deal on virus aid that includes major boost for small businesses",
+    "author": "Erica Werner",
+    "date": "2020-04-19",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Politics",
+    "source": "CBS News",
+    "link": "https://www.cbsnews.com/news/biden-picks-up-more-delegates-with-wyoming-caucus-win-2020-04-19/",
+    "headline": "Biden picks up more delegates with Wyoming caucus win",
+    "author": "Caroline Winton",
+    "date": "2020-04-19",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Politics",
+    "source": "MSNBC",
+    "link": "https://www.nbcnews.com/politics/politics-news/governors-shrug-trump-s-reopening-plan-say-more-funds-testing-n1186476",
+    "headline": "Governors react to Trump's plan to reopen U.S from coronavirus lockdowns",
+    "author": "Rebecca Shabad",
+    "date": "2020-04-17",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Politics",
+    "source": "The New York Times",
+    "link": "https://www.nytimes.com/2020/04/18/us/politics/bernie-sanders-voters-biden.html",
+    "headline": "Vote for Biden? Sanders Supporters Say It’s ‘Up in the Air’",
+    "author": "Trip Gabriel",
+    "date": "2020-04-18",
+    "thumbnail": "https://static01.nyt.com/images/2020/04/17/us/politics/00sanders-voters-Shippee/00sanders-voters-jumbo.jpg?quality=90&auto=webp"
+  },
+  {
+    "topic": "Politics",
+    "source": "Politico",
+    "link": "https://www.politico.com/news/2020/04/18/trump-reopening-economy-193885",
+    "headline": "Trump’s unspoken factor on reopening the economy: Politics",
+    "author": "Anita Kumar",
+    "date": "2020-04-18",
+    "thumbnail": "https://static.politico.com/dims4/default/b2658af/2147483647/resize/1920x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F8d%2F9c%2F9cb4bc9d4049aa65f047d6ad9dda%2F200418-trump-ap-773.jpg"
+  },
+  {
+    "topic": "Politics",
+    "source": "New York Post",
+    "link": "https://nypost.com/2020/04/19/trump-adviser-stephen-moore-says-economy-may-have-turned-a-corner/",
+    "headline": "Trump adviser Stephen Moore says economy ‘may have turned a corner’",
+    "author": "Mark Moore",
+    "date": "2020-04-19",
+    "thumbnail": "https://thenypost.files.wordpress.com/2020/04/stephen-moore-1.jpg?quality=90&strip=all&w=618&h=410&crop=1"
+  },
+  {
+    "topic": "Politics",
+    "source": "The Economist",
+    "link": "https://www.economist.com/united-states/2020/04/18/bernie-sanderss-endorsement-of-joe-biden-leaves-democrats-in-array",
+    "headline": "Bernie Sanders’s endorsement of Joe Biden leaves Democrats in array",
+    "author": "The Economist",
+    "date": "2020-04-18",
+    "thumbnail": "https://www.economist.com/img/b/1280/720/85/sites/default/files/images/print-edition/20200418_USP003_0.jpg"
+  },
+  {
+    "topic": "Politics",
+    "source": "HuffPost",
+    "link": "https://www.huffpost.com/entry/trump-secret-payments-sons-wife-girlfriend_n_5e9a1c46c5b635d25d6c747a",
+    "headline": "Trump Campaign Secretly Paying $180,000 A Year To His Sons’ Significant Others",
+    "author": "S.V. Date",
+    "date": "2020-04-17",
+    "thumbnail": "https://img.huffingtonpost.com/asset/5e9a1d673000004c071546b0.jpeg?ops=scalefit_720_noupscale"
+  },
+  {
+    "topic": "Politics",
+    "source": "Vox",
+    "link": "https://www.vox.com/energy-and-environment/2020/4/16/21220312/coronavirus-stimulus-renewable-energy-democrats",
+    "headline": "As Trump and McConnell mock clean energy, the industry could soon lose a half-million jobs",
+    "author": "David Roberts",
+    "date": "2020-04-16",
+    "thumbnail": "https://cdn.vox-cdn.com/thumbor/NsKoEv0GsllPVfOscyOlUq3R3JA=/0x0:5184x3456/920x613/filters:focal(2421x1304:3249x2132):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66661634/shutterstock_373393660.0.jpg"
+  },
+  {
+    "topic": "Business",
+    "source": "Washington Post",
+    "link": "https://www.washingtonpost.com/news/powerpost/paloma/the-finance-202/2020/04/21/the-finance-202-oil-s-unprecedented-collapse-illustrates-how-badly-the-coronavirus-is-shaking-the-economy/5e9e1dc888e0fa101a767661/?itid=sf_business",
+    "headline": "The Finance 202: Oil's Unprecedented collapse illustrates how badly the coronavirus is shaking the economy",
+    "author": "Tory Newmyer + Brent D Griffiths",
+    "date": "2020-04-21",
+    "thumbnail": "https://img.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fwww.washingtonpost.com%2Fresizer%2Fd4OeG6pyGpIxla5WiuSsgPsaAcs%3D%2F680x0%2Ffilters%3Aquality(70)%2Farc-anglerfish-washpost-prod-washpost%2FDIWDHUEDTMI6VANDS2IMTCARCE.jpg&w=908"
+  },
+  {
+    "topic": "Business",
+    "source": "Wall Street Journal",
+    "link": "https://www.wsj.com/articles/shake-shack-to-return-10-million-coronavirus-stimulus-loan-11587385439",
+    "headline": "Shake Shack to Return $10 Million Coronavirus Stimulus Loan",
+    "author": "Heather Haddon + Bob Davis",
+    "date": "2020-04-20",
+    "thumbnail": "https://m.wsj.net/video/20200418/042020smallbiz2/042020smallbiz2_1920x1080.jpg"
+  },
+  {
+    "topic": "Business",
+    "source": "Alternet",
+    "link": "https://www.alternet.org/2020/04/atlanta-residents-are-furious-with-gov-kemp-for-reopening-non-essential-businesses-during-coronavirus-pandemic-including-some-business-owners/",
+    "headline": "Atlanta residents are furious with Gov. Kemp for reopening non-essential businesses during coronavirus pandemic — including some business owners",
+    "author": "Alex Henderson",
+    "date": "2020-04-21",
+    "thumbnail": "https://www.alternet.org/wp-content/uploads/2019/11/kemp.jpg"
+  },
+  {
+    "topic": "Business",
+    "source": "Forbes",
+    "link": "https://www.forbes.com/sites/jeremybogaisky/2020/04/20/united-airlines-first-quarter-loss/#1aedce3d196e",
+    "headline": "United Gives First Glimpse Of How Ugly First Quarter Was For U.S. Airlines With $2.1 Billion Pretax Loss Warning",
+    "author": "Jeremy Bogaisky",
+    "date": "2020-04-20",
+    "thumbnail": "https://specials-images.forbesimg.com/imageserve/5e9d9f673e96af00075464b9/960x0.jpg?fit=scale"
+  },
+  {
+    "topic": "Business",
+    "source": "Forbes",
+    "link": "https://www.forbes.com/sites/arielshapiro/2020/04/20/disney-parks-may-not-see-a-full-recovery-until-coronavirus-vaccine-shares-drop-3-on-wall-street-downgrades-disneyland-disney-world/#682ebd5824bc",
+    "headline": "Disney Parks May Not See A Full Recovery Until Coronavirus Vaccine, Shares Drop 3% On Wall Street Downgrades",
+    "author": "Ariel Shapiro",
+    "date": "2020-04-21",
+    "thumbnail": "https://specials-images.forbesimg.com/imageserve/5e9dc3303e96af0007546719/960x0.jpg?fit=scale"
+  },
+  {
+    "topic": "Business",
+    "source": "The Hill",
+    "link": "https://thehill.com/homenews/senate/493857-gop-chairman-large-chains-should-not-have-gotten-small-business-coronavirus",
+    "headline": "GOP chairman: Large chains should not have received small business coronavirus aid",
+    "author": "Jordain Carney",
+    "date": "2020-04-21",
+    "thumbnail": "https://thehill.com/sites/default/files/styles/thumb_small_article/public/grassleychuck_020420gn_lead.jpg?itok=QDTcnQst"
+  },
+  {
+    "topic": "Business",
+    "source": "Vox",
+    "link": "https://www.vox.com/science-and-health/2019/10/17/18647521/capitalism-age-of-addiction-phone-david-courtwright",
+    "headline": "Capitalism is turning us into addicts",
+    "author": "Sean Illing",
+    "date": "2020-04-18",
+    "thumbnail": "https://cdn.vox-cdn.com/thumbor/cY_0PnjN6C7cPVpsLNgWi_11NS0=/0x0:1800x1013/1820x1024/filters:focal(782x297:1070x585):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65489052/limbic_capitalism_addiction_5.0.jpg"
+  },
+  {
+    "topic": "Climate",
+    "source": "Forbes",
+    "link": "https://www.forbes.com/sites/ankitmishra/2020/04/15/how-can-we-learn-from-covid-19-to-mitigate-our-next-crisis-climate-change/#6faf9574260d",
+    "headline": "How Can We Learn From COVID-19 To Mitigate Our Next Crisis: Climate Change",
+    "author": "Ankit Mishra",
+    "date": "2020-04-15",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Washington Post",
+    "link": "https://www.washingtonpost.com/climate-solutions/2020/04/15/climate-change-affects-everything-even-coronavirus/?arc404=true",
+    "headline": "Climate Change Affects Everything - Even The Coronavirus",
+    "author": "Sarah Kaplan",
+    "date": "2020-04-15",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "The Intercept",
+    "link": "https://theintercept.com/2020/04/04/coronavirus-pandemic-climate-change-co2-emissions/",
+    "headline": "What The Coronavirus Can Teach Us About The Climate Emergency",
+    "author": "Charles Komanoff + Christopher Ketcham",
+    "date": "2020-04-04",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "The New York Times",
+    "link": "https://www.nytimes.com/2020/04/15/climate/wildlife-population-collapse-climate-change.html",
+    "headline": "Wildlife Collapse From Climate Change Is Predicted To Hit Suddenly and Sooner",
+    "author": "Catrin Einhorn",
+    "date": "2020-04-15",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Fox News",
+    "link": "https://www.foxnews.com/science/tropical-forests-losing-ability-absorb-carbon",
+    "headline": "Tropical Forests Losing Their Ability To Absorb Carbon: study",
+    "author": "Julia Musto",
+    "date": "2020-03-07",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Infowars",
+    "link": "https://www.infowars.com/pope-says-pandemic-could-be-natures-revenge-for-ignoring-climate-change/",
+    "headline": "Pope Says Pandemic Could Be 'Nature's Revenge' For Ignoring Climate Change",
+    "author": "Zero Hedge",
+    "date": "2020-04-10",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "OAN",
+    "link": "https://www.oann.com/trump-admin-rolls-back-obama-era-emissions-standards/",
+    "headline": "Trump Admin. Rolls Back Obama-era Emission Standards",
+    "author": "OAN Newsroom",
+    "date": "2020-03-31",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "The Hill",
+    "link": "https://thehill.com/opinion/energy-environment/492617-clean-energy-is-facing-a-new-attack-but-they-can-evade-them",
+    "headline": "Clean Energy is Facing a New Attack, But They Can Evade Them",
+    "author": "Sylwia Bialek",
+    "date": "2020-04-14",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Vice News",
+    "link": "https://www.vice.com/en_us/article/jgevn3/climate-change-ruining-horny-season",
+    "headline": "Climate Change Is Ruining Horny Season",
+    "author": "Hannah Smothers",
+    "date": "2020-02-25",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "The Blaze",
+    "link": "https://www.theblaze.com/news/barack-obama-conflates-climate-and-coronavirus",
+    "headline": "Obama Uses Coronavirus Pandemic to Push Global Warming Alarmism, And The Internet Hits Back Hard",
+    "author": "Carlos Garcia",
+    "date": "2020-04-01",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Business Insider",
+    "link": "https://www.businessinsider.com/study-warming-makes-us-west-megadrought-worst-in-modern-age-2020-4",
+    "headline": "Study: Warming Makes US West Megadrought Worst In Modern Age",
+    "author": "Seth Borenstein",
+    "date": "2020-04-16",
+    "thumbnail": ""
+  },
+  {
+    "topic": "Climate",
+    "source": "Vox",
+    "link": "https://www.vox.com/2020/4/10/21216216/coronavirus-social-distancing-texas-unacast-climate-change",
+    "headline": "Coronavirus: The US Has A Collective Action Problem That's Larger Than The Coronavirus",
+    "author": "Patrick Sharkey",
+    "date": "2020-04-10",
+    "thumbnail": ""
+  }
+]
