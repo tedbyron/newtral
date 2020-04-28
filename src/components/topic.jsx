@@ -4,11 +4,8 @@ import { Container, Text } from 'react-pixi-fiber';
 import * as PIXI from 'pixi.js';
 
 const anchor = new PIXI.Point(0.5, 0.5);
-
 const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
   fill: 0x4a4a4a,
-  // TODO: BlinkMacSystemFont
-  fontFamily: '-apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif',
   fontSize: '2em',
 });
 

@@ -82,7 +82,7 @@ Layout.propTypes = {
   author: PropTypes.string,
   description: PropTypes.string,
   pathname: PropTypes.string,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.element.isRequired,
 };
 
 Layout.defaultProps = {

@@ -39,9 +39,8 @@ module.exports = {
         display: 'minimal-ui',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#b86bff', // TODO: theme color
-        // TODO: icon: 'src/images/icon.png',
-        include_favicon: false,
+        theme_color: '#4a4a4a',
+        icon: path.resolve(__dirname, 'src', 'images', 'icon.svg'),
       },
     },
     {
@@ -51,6 +50,14 @@ module.exports = {
           '___gatsby',
           'gatsby-focus-wrapper',
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: path.resolve(__dirname, 'src', 'images'),
+        },
       },
     },
     {

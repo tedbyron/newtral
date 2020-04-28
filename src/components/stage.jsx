@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { createStageClass } from 'react-pixi-fiber';
+import { createStageClass, Text } from 'react-pixi-fiber';
 import * as PIXI from 'pixi.js';
 
 import Topic from './topic';
@@ -8,6 +8,10 @@ import Topic from './topic';
 PIXI.settings.RESOLUTION = window.devicePixelRatio;
 
 const DEFAULT_STAGE = createStageClass();
+const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
+  fill: 0x4a4a4a,
+  fontSize: '2em',
+});
 
 const Stage = class extends React.Component {
   constructor(props) {
@@ -40,6 +44,7 @@ const Stage = class extends React.Component {
       width: 0,
       height: 0,
       topics,
+      currentTopic: null,
     };
   }
 
@@ -55,6 +60,14 @@ const Stage = class extends React.Component {
   componentWillUnmount() {
     // remove the window resize event listener from the window
     window.removeEventListener('resize', this.onWindowResize);
+  }
+
+  /**
+   * when a topic is clicked, clear the topics from the stage and populate the
+   * stage with the clicked topic's articles
+   */
+  onTopicClick = () => {
+
   }
 
   /**
@@ -75,7 +88,9 @@ const Stage = class extends React.Component {
   }
 
   render() {
-    const { width, height, topics } = this.state;
+    const {
+      width, height, topics, currentTopic,
+    } = this.state;
 
     return (
       <DEFAULT_STAGE
@@ -86,13 +101,20 @@ const Stage = class extends React.Component {
           autoDensity: true,
         }}
       >
-        {topics.map((topic, i) => (
+        {!currentTopic && (
+          <Text
+            text="Topics"
+            style={TOPIC_TEXT_STYLE}
+          />
+        )}
+        {!currentTopic && topics.map((topic, i) => (
           <Topic
             stageWidth={width}
             stageHeight={height}
             topicCount={topics.length}
             name={topic.name}
             index={i}
+            style={TOPIC_TEXT_STYLE}
             key={topic.key}
           />
         ))}
