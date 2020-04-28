@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { Container, Sprite, Text } from 'react-pixi-fiber';
 import * as PIXI from 'pixi.js';
 
-const anchor = new PIXI.Point(0.5, 0.5);
+const anchorTop = new PIXI.Point(0.5, 0);
+const anchorMid = new PIXI.Point(0.5, 0.5);
+const anchorBot = new PIXI.Point(0.5, 1);
 
 const Article = class extends React.Component {
   constructor(props) {
@@ -85,6 +87,7 @@ const Article = class extends React.Component {
       <Container
         x={((bias + 42) / 84) * stageWidth}
         y={stageHeight - (reliability / 64) * stageHeight}
+        sortableChildren
         buttonMode
         interactive
         pointerover={this.displayInfo}
@@ -94,7 +97,7 @@ const Article = class extends React.Component {
         {/* TODO: thumbnail image */}
         {thumbnail && (
           <Sprite
-            anchor={anchor}
+            anchor={anchorMid}
             texture={thumbnail}
             width="64"
             height="64"
@@ -102,7 +105,7 @@ const Article = class extends React.Component {
         )}
 
         <Text
-          anchor={anchor}
+          anchor={anchorMid}
           text={`${bias}, ${reliability}`}
           style={{
             fill: reliability > 20 ? 0x4a4a4a : 0xff3860,
@@ -111,8 +114,34 @@ const Article = class extends React.Component {
         />
 
         {pointerOver && (
-          <Container>
-            <Text />
+          <Container
+            x={0}
+            y={-16}
+          >
+            <Sprite
+              anchor={reliability < 32 ? anchorBot : anchorTop}
+              width={200}
+              height={220}
+              texture={PIXI.Texture.WHITE}
+              tint={0xfafafa}
+            />
+            <Text
+              anchor={anchorTop}
+              y={reliability < 32 ? -210 : 10}
+              text={
+                `"${headline}"\n\n`
+                + `Source: ${source}\n\n`
+                + `Bias: ${bias}\n\n`
+                + `Reliability: ${reliability}`
+              }
+              style={{
+                // breakWords: true,
+                fill: 0x4a4a4a,
+                fontSize: '1.5em',
+                wordWrap: true,
+                wordWrapWidth: 200,
+              }}
+            />
           </Container>
         )}
       </Container>
