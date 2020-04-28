@@ -88,7 +88,7 @@ const Stage = class extends React.Component {
    * of its container and the height of the screen
    */
   onWindowResize = () => {
-    const style = window.getComputedStyle(document.getElementById('section-stage'));
+    const style = window.getComputedStyle(document.getElementById('container-stage'));
     const paddingX = parseInt(style.getPropertyValue('padding-left'), 10) + parseInt(style.getPropertyValue('padding-right'), 10);
     const paddingY = parseInt(style.getPropertyValue('padding-top'), 10) + parseInt(style.getPropertyValue('padding-bottom'), 10);
     const headerHeight = document.getElementById('header').offsetHeight;

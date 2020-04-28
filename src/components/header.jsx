@@ -51,8 +51,8 @@ const Header = class extends React.Component {
               <Link
                 to="/"
                 className="navbar-item"
-                onMouseEnter={this.onHomeHover}
-                onMouseLeave={this.onHomeDehover}
+                onPointerOver={this.onHomeHover}
+                onPointerOut={this.onHomeDehover}
               >
                 <Icon className={`icon icon-newtral${homeHover ? ' icon-newtral-hover' : ''}`} />
                 <span>&nbsp;Newtral</span>

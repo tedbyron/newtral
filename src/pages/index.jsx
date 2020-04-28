@@ -36,24 +36,23 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <section
-        className="section section-stage"
-        id="section-stage"
-      >
-        { typeof document !== 'undefined' && (
-        <Suspense
-          fallback={(
-            <div className="container has-text-centered">
-              <span>Loading...</span>
-            </div>
+      <section className="section">
+        <div className="container container-stage" id="container-stage">
+          { typeof document !== 'undefined' && (
+          <Suspense
+            fallback={(
+              <div className="container has-text-centered">
+                <span>Loading...</span>
+              </div>
+            )}
+          >
+            <Stage
+              articles={allArticlesJson.nodes}
+              sources={allSourcesJson.nodes}
+            />
+          </Suspense>
           )}
-        >
-          <Stage
-            articles={allArticlesJson.nodes}
-            sources={allSourcesJson.nodes}
-          />
-        </Suspense>
-        )}
+        </div>
       </section>
     </Layout>
   );

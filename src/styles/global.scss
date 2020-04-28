@@ -36,6 +36,7 @@ footer {
   }
 }
 
+// header icon
 .icon-newtral {
   fill: $grey-dark;
 }
@@ -44,8 +45,8 @@ footer {
   fill: $blue;
 }
 
-// stage section
-.section-stage {
+// stage container
+.container-stage {
   height: 100%;
   display: flex;
   align-items: center;
