@@ -14,7 +14,6 @@ const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
 
 const Topic = (props) => {
   const {
-    // eslint-disable-next-line
     stageWidth, stageHeight, topicCount, name, index,
   } = props;
 
