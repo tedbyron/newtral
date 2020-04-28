@@ -36,7 +36,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <section className="section">
+      <section className="section" id="section-stage">
         <div className="container container-stage" id="container-stage">
           { typeof document !== 'undefined' && (
           <Suspense

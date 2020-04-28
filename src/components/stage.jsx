@@ -88,14 +88,17 @@ const Stage = class extends React.Component {
    * of its container and the height of the screen
    */
   onWindowResize = () => {
-    const style = window.getComputedStyle(document.getElementById('container-stage'));
-    const paddingX = parseInt(style.getPropertyValue('padding-left'), 10) + parseInt(style.getPropertyValue('padding-right'), 10);
-    const paddingY = parseInt(style.getPropertyValue('padding-top'), 10) + parseInt(style.getPropertyValue('padding-bottom'), 10);
+    const containerStyle = window.getComputedStyle(document.getElementById('container-stage'));
+    const sectionStyle = window.getComputedStyle(document.getElementById('section-stage'));
+
+    const marginX = parseInt(containerStyle.getPropertyValue('margin-left'), 10) + parseInt(containerStyle.getPropertyValue('margin-right'), 10);
+    const paddingX = parseInt(sectionStyle.getPropertyValue('padding-left'), 10) + parseInt(sectionStyle.getPropertyValue('padding-right'), 10);
+    const paddingY = parseInt(sectionStyle.getPropertyValue('padding-top'), 10) + parseInt(sectionStyle.getPropertyValue('padding-bottom'), 10);
     const headerHeight = document.getElementById('header').offsetHeight;
     const footerHeight = document.getElementById('footer').offsetHeight;
 
     this.setState({
-      width: parseInt(style.getPropertyValue('width'), 10) - paddingX,
+      width: document.body.clientWidth - paddingX - marginX,
       height: document.body.clientHeight - headerHeight - footerHeight - paddingY,
     });
   }
