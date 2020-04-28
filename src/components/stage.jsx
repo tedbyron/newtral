@@ -21,7 +21,7 @@ const Stage = class extends React.Component {
       const topic = topics.find((e) => e.name === article.topic);
 
       // if the topic is not in the list, add it with the article, or else push
-      // the article onto the array of articles
+      // the article onto the topic's nodes
       if (typeof topic === 'undefined') {
         topics.push({
           name: article.topic,

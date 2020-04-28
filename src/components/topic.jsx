@@ -5,27 +5,31 @@ import * as PIXI from 'pixi.js';
 
 const anchor = new PIXI.Point(0.5, 0.5);
 
-const TEXT_STYLE = {
+const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
   fill: 0x4a4a4a,
+  // TODO: BlinkMacSystemFont
+  fontFamily: '-apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif',
   fontSize: '2em',
-};
+});
 
 const Topic = (props) => {
   const {
+    // eslint-disable-next-line
     stageWidth, stageHeight, topicCount, name, index,
   } = props;
 
   return (
     <Container
-      // anchor={anchor}
-      x={stageWidth / topicCount + index * 100}
+      x={(index * 120) - 120 * ((topicCount - 1) / 2) + (stageWidth / 2)}
       y={stageHeight / 2}
       interactive
     >
+      {/* TODO: topic image */}
+
       <Text
         anchor={anchor}
         text={name}
-        style={TEXT_STYLE}
+        style={TOPIC_TEXT_STYLE}
       />
     </Container>
   );
