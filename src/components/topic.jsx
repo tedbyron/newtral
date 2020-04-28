@@ -9,27 +9,30 @@ const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
   fontSize: '2em',
 });
 
-const Topic = (props) => {
-  const {
-    stageWidth, stageHeight, topicCount, name, index,
-  } = props;
+const Topic = ({
+  stageWidth,
+  stageHeight,
+  topicCount,
+  name,
+  index,
+  onTopicClick,
+}) => (
+  <Container
+    x={(index * 120) - 120 * ((topicCount - 1) / 2) + (stageWidth / 2)}
+    y={stageHeight / 2}
+    buttonMode
+    interactive
+    pointerdown={onTopicClick}
+  >
+    {/* TODO: topic image */}
 
-  return (
-    <Container
-      x={(index * 120) - 120 * ((topicCount - 1) / 2) + (stageWidth / 2)}
-      y={stageHeight / 2}
-      interactive
-    >
-      {/* TODO: topic image */}
-
-      <Text
-        anchor={anchor}
-        text={name}
-        style={TOPIC_TEXT_STYLE}
-      />
-    </Container>
-  );
-};
+    <Text
+      anchor={anchor}
+      text={name}
+      style={TOPIC_TEXT_STYLE}
+    />
+  </Container>
+);
 
 export default Topic;
 
@@ -39,4 +42,5 @@ Topic.propTypes = {
   topicCount: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
+  onTopicClick: PropTypes.func.isRequired,
 };

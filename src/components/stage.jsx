@@ -62,8 +62,10 @@ const Stage = class extends React.Component {
    * when a topic is clicked, clear the topics from the stage and populate the
    * stage with the clicked topic's articles
    */
-  onTopicClick = () => {
-
+  onTopicClick = (topic) => {
+    this.setState({
+      currentTopic: topic,
+    });
   }
 
   /**
@@ -121,9 +123,27 @@ const Stage = class extends React.Component {
             topicCount={topics.length}
             name={topic.name}
             index={i}
+            onTopicClick={() => this.onTopicClick(topic.name)}
             key={topic.key}
           />
         ))}
+        {currentTopic && (
+          <Text
+            anchor={{
+              x: 0.5,
+              y: 0,
+            }}
+            position={{
+              x: width / 2,
+              y: 0,
+            }}
+            text={currentTopic}
+            style={{
+              fill: 0x4a4a4a,
+              fontSize: '3em',
+            }}
+          />
+        )}
       </DEFAULT_STAGE>
     );
   }
