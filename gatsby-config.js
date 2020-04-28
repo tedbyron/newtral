@@ -68,13 +68,6 @@ module.exports = {
         path: path.resolve(__dirname, 'src', 'data'),
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: path.resolve(__dirname, 'src', 'images'),
-      },
-    },
     'gatsby-plugin-offline',
   ],
 };
