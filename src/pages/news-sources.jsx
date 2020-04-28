@@ -30,24 +30,26 @@ const NewsSourcesPage = () => {
           <h2 className="subtitle">Newtral&apos;s news sources with their bias and reliability scores.</h2>
         </div>
 
-        <table className="table is-bordered is-striped is-fullwidth">
-          <thead>
-            <tr>
-              <th>Source</th>
-              <th>Bias</th>
-              <th>Reliability</th>
-            </tr>
-          </thead>
-          <tbody>
-            {allSourcesJson.nodes.map((node) => (
-              <tr key={node.id}>
-                <td>{node.source}</td>
-                <td>{node.bias}</td>
-                <td className={node.reliability <= 20 ? 'has-background-danger' : ''}>{node.reliability}</td>
+        <div className="container">
+          <table className="table is-bordered is-striped is-fullwidth">
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Bias</th>
+                <th>Reliability</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {allSourcesJson.nodes.map((node) => (
+                <tr key={node.id}>
+                  <td>{node.source}</td>
+                  <td>{node.bias}</td>
+                  <td className={node.reliability <= 20 ? 'has-background-danger' : ''}>{node.reliability}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     </Layout>
   );
