@@ -3,6 +3,7 @@ module.exports = {
   globals: {
     document: true,
     window: true,
+    fetch: true,
     graphql: true,
     __PATH_PREFIX__: true,
     __BASE_PATH__: true,

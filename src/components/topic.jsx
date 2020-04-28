@@ -22,7 +22,7 @@ const Topic = ({
     y={stageHeight / 2}
     buttonMode
     interactive
-    pointerdown={setCurrentTopic}
+    pointertap={setCurrentTopic}
   >
     {/* TODO: topic image */}
 

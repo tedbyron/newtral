@@ -7,7 +7,9 @@ $navbar-breakpoint: $tablet; // default: $desktop
 html,
 body,
 #___gatsby,
-#gatsby-focus-wrapper {
+#gatsby-focus-wrapper,
+.section-stage,
+.container-stage {
   height: 100%;
 }
 
@@ -47,7 +49,6 @@ footer {
 
 // stage container
 .container-stage {
-  height: 100%;
   display: flex;
   align-items: center;
 }

@@ -17,7 +17,8 @@ const Stage = class extends React.Component {
     const { articles, sources } = this.props;
     const topics = [];
 
-    // loop through articles, collect unique topics, and add articles to topics
+    // loop through articles, collect unique topics, add articles to topics, and
+    // add sources to topics
     articles.forEach((article) => {
       const topic = topics.find((e) => e.name === article.topic);
       const source = sources.find((e) => e.source === article.source);
@@ -65,14 +66,15 @@ const Stage = class extends React.Component {
   }
 
   /**
-   * when a topic is clicked, clear the topics from the stage and populate the
-   * stage with the clicked topic's articles
-   * @param {String} topic - the clicked topic
+   * set the current topic to the topic with a name matching the clicked topic
+   * component
+   *
+   * @param {String} topic - the clicked topic name
    */
   setCurrentTopic = (topic) => {
-    this.setState({
-      currentTopic: topic,
-    });
+    this.setState((state) => ({
+      currentTopic: state.topics.find((e) => e.name === topic),
+    }));
   }
 
   /**
@@ -118,80 +120,88 @@ const Stage = class extends React.Component {
           autoDensity: true,
         }}
       >
-        {!currentTopic && (
-          <Text
-            anchor={{
-              x: 0.5,
-              y: 0,
-            }}
-            position={{
-              x: width / 2,
-              y: 0,
-            }}
-            text="Topics"
-            style={{
-              fill: 0x4a4a4a,
-              fontSize: '3em',
-            }}
-          />
-        )}
-        {!currentTopic && topics.map((topic, i) => (
-          <Topic
-            stageWidth={width}
-            stageHeight={height}
-            topicCount={topics.length}
-            name={topic.name}
-            index={i}
-            setCurrentTopic={() => this.setCurrentTopic(topic.name)}
-            key={topic.key}
-          />
-        ))}
-        {currentTopic && (
-          <Text
-            text="◂ Topics"
-            style={{
-              fill: 0x4a4a4a,
-              fontSize: '2em',
-            }}
-            buttonMode
-            interactive
-            pointerdown={this.clearCurrentTopic}
-          />
-        )}
-        {currentTopic && (
-          <Text
-            anchor={{
-              x: 0.5,
-              y: 0,
-            }}
-            position={{
-              x: width / 2,
-              y: 0,
-            }}
-            text={currentTopic}
-            style={{
-              fill: 0x4a4a4a,
-              fontSize: '3em',
-            }}
-          />
-        )}
-        {/* TODO: collision detection */}
-        {currentTopic
-        && topics.find((topic) => topic.name === currentTopic).nodes.map((article) => (
-          <Article
-            stageWidth={width}
-            stageHeight={height}
-            author={article.author}
-            bias={article.bias}
-            date={article.date}
-            headline={article.headline}
-            link={article.link}
-            reliability={article.reliability}
-            source={article.source}
-            thumbnail={article.thumbnail}
-            key={article.id}
-          />
-        ))}
+        <>
+          {!currentTopic && (
+            <Text
+              anchor={{
+                x: 0.5,
+                y: 0,
+              }}
+              position={{
+                x: width / 2,
+                y: 0,
+              }}
+              text="Topics"
+              style={{
+                fill: 0x4a4a4a,
+                fontSize: '3em',
+              }}
+            />
+          )}
+
+          {!currentTopic && topics.map((topic, i) => (
+            <Topic
+              stageWidth={width}
+              stageHeight={height}
+              topicCount={topics.length}
+              name={topic.name}
+              index={i}
+              setCurrentTopic={() => this.setCurrentTopic(topic.name)}
+              key={topic.key}
+            />
+          ))}
+        </>
+
+        <>
+          {currentTopic && (
+            <Text
+              text="◂ Topics"
+              style={{
+                fill: 0x4a4a4a,
+                fontSize: '2em',
+              }}
+              buttonMode
+              interactive
+              pointertap={this.clearCurrentTopic}
+            />
+          )}
+
+          {currentTopic && (
+            <Text
+              anchor={{
+                x: 0.5,
+                y: 0,
+              }}
+              position={{
+                x: width / 2,
+                y: 0,
+              }}
+              text={currentTopic.name}
+              style={{
+                fill: 0x4a4a4a,
+                fontSize: '3em',
+              }}
+            />
+          )}
+
+          {/* TODO: collision detection */}
+          {currentTopic
+          && currentTopic.nodes.map((article) => (
+            <Article
+              stageWidth={width}
+              stageHeight={height}
+              author={article.author}
+              bias={article.bias}
+              date={article.date}
+              headline={article.headline}
+              link={article.link}
+              reliability={article.reliability}
+              source={article.source}
+              thumbnail={article.thumbnail}
+              key={article.id}
+            />
+          ))}
+        </>
       </DEFAULT_STAGE>
     );
   }
