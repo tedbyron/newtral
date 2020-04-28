@@ -8,10 +8,6 @@ import Topic from './topic';
 PIXI.settings.RESOLUTION = window.devicePixelRatio;
 
 const DEFAULT_STAGE = createStageClass();
-const TOPIC_TEXT_STYLE = new PIXI.TextStyle({
-  fill: 0x4a4a4a,
-  fontSize: '2em',
-});
 
 const Stage = class extends React.Component {
   constructor(props) {
@@ -103,8 +99,19 @@ const Stage = class extends React.Component {
       >
         {!currentTopic && (
           <Text
+            anchor={{
+              x: 0.5,
+              y: 0,
+            }}
+            position={{
+              x: width / 2,
+              y: 0,
+            }}
             text="Topics"
-            style={TOPIC_TEXT_STYLE}
+            style={{
+              fill: 0x4a4a4a,
+              fontSize: '3em',
+            }}
           />
         )}
         {!currentTopic && topics.map((topic, i) => (
@@ -114,7 +121,6 @@ const Stage = class extends React.Component {
             topicCount={topics.length}
             name={topic.name}
             index={i}
-            style={TOPIC_TEXT_STYLE}
             key={topic.key}
           />
         ))}
