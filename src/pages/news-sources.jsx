@@ -35,8 +35,8 @@ const NewsSourcesPage = () => {
             <thead>
               <tr>
                 <th>Source</th>
-                <th>Bias</th>
-                <th>Reliability</th>
+                <th>Bias [-42, 42]</th>
+                <th>Reliability [0, 64]</th>
               </tr>
             </thead>
             <tbody>

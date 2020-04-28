@@ -4,6 +4,7 @@ import { createStageClass, Text } from 'react-pixi-fiber';
 import * as PIXI from 'pixi.js';
 
 import Topic from './topic';
+import Article from './article';
 
 PIXI.settings.RESOLUTION = window.devicePixelRatio;
 
@@ -174,6 +175,23 @@ const Stage = class extends React.Component {
             }}
           />
         )}
+        {/* TODO: collision detection */}
+        {currentTopic
+        && topics.find((topic) => topic.name === currentTopic).nodes.map((article) => (
+          <Article
+            stageWidth={width}
+            stageHeight={height}
+            author={article.author}
+            bias={article.bias}
+            date={article.date}
+            headline={article.headline}
+            link={article.link}
+            reliability={article.reliability}
+            source={article.source}
+            thumbnail={article.thumbnail}
+            key={article.id}
+          />
+        ))}
       </DEFAULT_STAGE>
     );
   }
