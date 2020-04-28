@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Text } from 'react-pixi-fiber';
+import { Container, Sprite, Text } from 'react-pixi-fiber';
 import * as PIXI from 'pixi.js';
 
 const anchor = new PIXI.Point(0.5, 0.5);
@@ -26,22 +26,35 @@ const Article = ({
   source,
   // eslint-disable-next-line
   thumbnail,
-}) => (
-  <Container
-    x={((bias + 42) / 84) * stageWidth}
-    y={stageHeight - (reliability / 64) * stageHeight}
-    buttonMode
-    interactive
-  >
-    {/* TODO: article image */}
+}) => {
+  const texture = thumbnail
+    ? PIXI.Texture.from(thumbnail)
+    : null;
 
-    <Text
-      anchor={anchor}
-      text={`${bias}, ${reliability}`}
-      style={ARTICLE_TEXT_STYLE}
-    />
-  </Container>
-);
+  return (
+    <Container
+      x={((bias + 42) / 84) * stageWidth}
+      y={stageHeight - (reliability / 64) * stageHeight}
+      buttonMode
+      interactive
+    >
+      {texture && (
+        <Sprite
+          anchor={anchor}
+          texture={texture}
+          width="64"
+          height="64"
+        />
+      )}
+
+      <Text
+        anchor={anchor}
+        text={`${bias}, ${reliability}`}
+        style={ARTICLE_TEXT_STYLE}
+      />
+    </Container>
+  );
+};
 
 export default Article;
 
