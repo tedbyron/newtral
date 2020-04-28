@@ -1,7 +1,7 @@
 [
   {
     "topic": "COVID-19",
-    "source": "CNBC",
+    "source": "MSNBC",
     "link": "https://www.cnbc.com/2020/04/17/santa-clara-covid-19-antibody-study-suggests-broad-asymptomatic-spread.html",
     "headline": "Antibody study suggests Covid-19 could be far more prevalent in the Bay Area than official numbers suggest",
     "author": "Christina Farr",
@@ -136,7 +136,7 @@
   },
   {
     "topic": "Politics",
-    "source": "The Washington Post",
+    "source": "Washington Post",
     "link": "https://www.washingtonpost.com/us-policy/2020/04/19/trump-coronavirus-democrats-small-business/",
     "headline": "Trump administration, congressional leaders near deal on virus aid that includes major boost for small businesses",
     "author": "Erica Werner",

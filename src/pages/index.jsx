@@ -27,7 +27,6 @@ const IndexPage = () => {
       allSourcesJson {
         nodes {
           bias
-          id
           source
           reliability
         }

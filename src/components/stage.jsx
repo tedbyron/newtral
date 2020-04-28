@@ -13,12 +13,17 @@ const Stage = class extends React.Component {
   constructor(props) {
     super(props);
 
-    const { articles } = this.props;
+    const { articles, sources } = this.props;
     const topics = [];
 
     // loop through articles, collect unique topics, and add articles to topics
     articles.forEach((article) => {
       const topic = topics.find((e) => e.name === article.topic);
+      const source = sources.find((e) => e.source === article.source);
+      if (typeof source === 'undefined') {
+        /* eslint-disable-next-line */
+        console.warn(`Article ${article.id} has an unknown source`);
+      }
 
       // if the topic is not in the list, add it with the article, or else push
       // the article onto the topic's nodes
@@ -26,10 +31,10 @@ const Stage = class extends React.Component {
         topics.push({
           name: article.topic,
           key: `topic${topics.length}`,
-          nodes: [article],
+          nodes: [{ ...article, ...source }],
         });
       } else {
-        topic.nodes.push(article);
+        topic.nodes.push({ ...article, ...source });
       }
     });
 
@@ -61,10 +66,20 @@ const Stage = class extends React.Component {
   /**
    * when a topic is clicked, clear the topics from the stage and populate the
    * stage with the clicked topic's articles
+   * @param {String} topic - the clicked topic
    */
-  onTopicClick = (topic) => {
+  setCurrentTopic = (topic) => {
     this.setState({
       currentTopic: topic,
+    });
+  }
+
+  /**
+   * clears the current topic and returns to the topics screen
+   */
+  clearCurrentTopic = () => {
+    this.setState({
+      currentTopic: null,
     });
   }
 
@@ -123,10 +138,22 @@ const Stage = class extends React.Component {
             topicCount={topics.length}
             name={topic.name}
             index={i}
-            onTopicClick={() => this.onTopicClick(topic.name)}
+            setCurrentTopic={() => this.setCurrentTopic(topic.name)}
             key={topic.key}
           />
         ))}
+        {currentTopic && (
+          <Text
+            text="◂ Topics"
+            style={{
+              fill: 0x4a4a4a,
+              fontSize: '2em',
+            }}
+            buttonMode
+            interactive
+            pointerdown={this.clearCurrentTopic}
+          />
+        )}
         {currentTopic && (
           <Text
             anchor={{
@@ -164,11 +191,11 @@ Stage.propTypes = {
       topic: PropTypes.string.isRequired,
     }).isRequired,
   ).isRequired,
-  // sources: PropTypes.arrayOf(
-  //   PropTypes.exact({
-  //     bias: PropTypes.string.isRequired,
-  //     source: PropTypes.string.isRequired,
-  //     reliability: PropTypes.string.isRequired,
-  //   }).isRequired,
-  // ).isRequired,
+  sources: PropTypes.arrayOf(
+    PropTypes.exact({
+      bias: PropTypes.number.isRequired,
+      source: PropTypes.string.isRequired,
+      reliability: PropTypes.number.isRequired,
+    }).isRequired,
+  ).isRequired,
 };

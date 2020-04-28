@@ -15,14 +15,14 @@ const Topic = ({
   topicCount,
   name,
   index,
-  onTopicClick,
+  setCurrentTopic,
 }) => (
   <Container
     x={(index * 120) - 120 * ((topicCount - 1) / 2) + (stageWidth / 2)}
     y={stageHeight / 2}
     buttonMode
     interactive
-    pointerdown={onTopicClick}
+    pointerdown={setCurrentTopic}
   >
     {/* TODO: topic image */}
 
@@ -42,5 +42,5 @@ Topic.propTypes = {
   topicCount: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
-  onTopicClick: PropTypes.func.isRequired,
+  setCurrentTopic: PropTypes.func.isRequired,
 };
