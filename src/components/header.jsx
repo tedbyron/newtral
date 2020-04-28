@@ -14,7 +14,7 @@ const Header = class extends React.Component {
   /**
    * toggle navigation state on burger click
    */
-  handleBurgerClick = () => {
+  onBurgerClick = () => {
     this.setState((state) => ({
       navIsActive: !state.navIsActive,
       navClass: state.navIsActive ? '' : ' is-active',
@@ -25,7 +25,7 @@ const Header = class extends React.Component {
     const { navIsActive, navClass } = this.state;
 
     return (
-      <header>
+      <header id="header">
         <nav className="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
           <div className="container">
             <div className="navbar-brand">
@@ -39,7 +39,7 @@ const Header = class extends React.Component {
                 </span>
               </a>
 
-              <button type="button" className={`navbar-burger burger${navClass}`} aria-label="menu" aria-expanded={navIsActive} data-target="navbarMenu" onClick={this.handleBurgerClick}>
+              <button type="button" className={`navbar-burger burger${navClass}`} aria-label="menu" aria-expanded={navIsActive} data-target="navbarMenu" onClick={this.onBurgerClick}>
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
@@ -47,9 +47,9 @@ const Header = class extends React.Component {
             </div>
 
             <div id="navbarMenu" className={`navbar-menu${navClass}`}>
-              {/* <div className="navbar-start">
-                <Link to="/404" className="navbar-item" activeClassName="is-active">Link</Link>
-              </div> */}
+              <div className="navbar-start">
+                <Link to="/news-sources" className="navbar-item" activeClassName="is-active">News Sources</Link>
+              </div>
 
               <div className="navbar-end is-hidden-mobile">
                 <div className="field is-grouped">

@@ -10,6 +10,8 @@ module.exports = {
     colorScheme: 'only light',
   },
   plugins: [
+    'gatsby-transformer-json',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
@@ -62,15 +64,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'json',
-        path: path.resolve(__dirname, 'static', 'json'),
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'pages',
-        path: path.resolve(__dirname, 'src', 'pages'),
+        name: 'data',
+        path: path.resolve(__dirname, 'src', 'data'),
       },
     },
     {
@@ -80,7 +75,6 @@ module.exports = {
         path: path.resolve(__dirname, 'src', 'images'),
       },
     },
-    'gatsby-transformer-sharp',
     'gatsby-plugin-offline',
   ],
 };
